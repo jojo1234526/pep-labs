@@ -15,5 +15,12 @@ public class CauseUncheckedException {
      */
     public void throwUncheckedException(){
 
+        int a = 2;
+        int b = 0; 
+        int i=0; 
+        while(a>b) {
+            a/b;
+        }
+
     }
 }
