@@ -49,7 +49,7 @@ public class MapExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void addKeyValuePair(Map<Integer,String> map, int key, String value){
-        map.put(1, "England");
+        map.put(key,value);
     }
 
     /**
