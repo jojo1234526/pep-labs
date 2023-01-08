@@ -40,12 +40,12 @@
     :git_user_name: jojo1234526
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 0
+  :count_labs_passed: 1
   :count_tests_total: 361
-  :count_tests_passed: 5
+  :count_tests_passed: 7
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 5
+  :count_tests_passed: 7
   Start:
     :Week: 1
     :Order: 1
@@ -376,14 +376,14 @@
     :Order: 7
     :Type: lab
     :count_tests: 7
-    :count_tests_passed: 5
+    :count_tests_passed: 7
     :tests:
       createQueueTest: 1
       getSizeTest1: 1
       addToQueueTest1: 1
       addToQueueTest2: 1
-      removeFromStartOfQueueTest1: 0
-      removeFromStartOfQueueTest2: 0
+      removeFromStartOfQueueTest1: 1
+      removeFromStartOfQueueTest2: 1
       getStartOfQueueWithoutRemovingTest1: 1
   Stack:
     :Week: 3
