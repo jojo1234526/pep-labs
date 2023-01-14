@@ -33,11 +33,9 @@ public class BankService {
      * @param amount the amount to be withdrawn.
      */
     public void withdraw(double amount){
-        if(amount>balance){
-            balance=balance;
-        }else{
+        if(amount<=balance){   
             balance-=amount;
-        }
+        } // otherwise balance=amount because amount is just what is deposited and that is the max that can be returned. 
 
     }
 
