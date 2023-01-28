@@ -1,7 +1,7 @@
 ---
 :lab_name: pep-labs
 :repo_path: "/workspace/revpro-cli/pep-labs"
-:previous_lab: 
+:previous_lab: FlightTracker
 :current_lab: FlightTracker
 :origin_remote: https://github.com/jojo1234526/pep-labs
 :repo_clone_folder: "/workspace/revpro-cli/pep-labs"
@@ -42,10 +42,10 @@
   :count_labs_total: 96
   :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 2
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 2
   Start:
     :Week: 1
     :Order: 1
@@ -721,7 +721,7 @@
     :Order: 13
     :Type: project
     :count_tests: 13
-    :count_tests_passed: 0
+    :count_tests_passed: 2
     :tests:
       getAllFlightsTest1: 0
       getFlightByIDTest1: 0
@@ -734,8 +734,8 @@
       getAllFlightsTest: 0
       addFlightTest: 0
       getFlightsFromCityToCityTest1: 0
-      updateFlightTest1: 0
-      updateFlightTestNonExistent: 0
+      updateFlightTest1: 1
+      updateFlightTestNonExistent: 1
   ForeignKey:
     :Week: 6
     :Order: 1
