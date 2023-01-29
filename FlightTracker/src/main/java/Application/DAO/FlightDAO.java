@@ -33,9 +33,11 @@ public class FlightDAO {
         List<Flight> flights = new ArrayList<>();
         try {
             //Write SQL logic here
-            String sql = "change me";
+            String sql = "INSERT INTO flight (departure_city, arrival_city) values (?, ?);";
 
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, flight.departure_city);
+            preparedStatement.setString(2, flight.arrival_city);
             ResultSet rs = preparedStatement.executeQuery();
             while(rs.next()){
                 Flight flight = new Flight(rs.getInt("flight_id"), rs.getString("departure_city"),
@@ -60,9 +62,9 @@ public class FlightDAO {
      * from zero) and the second argument identifies the value to be used:
      * preparedStatement.setInt(1,int1);
      *
-     * @param id a flight ID.
+     * @param flight_id a flight ID.
      */
-    public Flight getFlightById(int id){
+    public Flight getFlightById(int flight_id){
         Connection connection = ConnectionUtil.getConnection();
         try {
             //Write SQL logic here
@@ -197,5 +199,23 @@ public class FlightDAO {
             System.out.println(e.getMessage());
         }
         return flights;
+    }
+
+    public void add(Flight flight) {
+    }
+
+    public Flight create(Flight flight) {
+        return null;
+    }
+
+    public void commit() {
+    }
+
+    public Flight addFlight(Flight flight) {
+        return null;
+    }
+
+    public Flight addFlight(Flight flight_id, Object departure_city, Object arrival_city) {
+        return null;
     }
 }

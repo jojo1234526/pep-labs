@@ -121,5 +121,8 @@ public class Flight {
         Flight flight = (Flight) o;
         return this.flight_id == flight.flight_id && Objects.equals(departure_city, flight.departure_city) && Objects.equals(arrival_city, flight.arrival_city);
     }
+    public int getId() {
+        return 0;
+    }
 
 }
