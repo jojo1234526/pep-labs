@@ -42,10 +42,10 @@
   :count_labs_total: 96
   :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 4
+  :count_tests_passed: 9
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 4
+  :count_tests_passed: 9
   Start:
     :Week: 1
     :Order: 1
@@ -721,18 +721,18 @@
     :Order: 13
     :Type: project
     :count_tests: 13
-    :count_tests_passed: 4
+    :count_tests_passed: 9
     :tests:
-      getAllFlightsTest1: 0
+      getAllFlightsTest1: 1
       getFlightByIDTest1: 0
       getFlightByIDTest2: 0
-      getFlightsDAOFromCityToCityTest1: 0
-      getFlightsFromCityToCityTest2: 0
+      getFlightsDAOFromCityToCityTest1: 1
+      getFlightsFromCityToCityTest2: 1
       addFlightCheckByIdTest1: 0
-      addFlightCheckAllFlightsTest1: 0
+      addFlightCheckAllFlightsTest1: 1
       updateFlightDAOTest1: 0
       getAllFlightsTest: 1
-      addFlightTest: 0
+      addFlightTest: 1
       getFlightsFromCityToCityTest1: 1
       updateFlightTest1: 1
       updateFlightTestNonExistent: 1
