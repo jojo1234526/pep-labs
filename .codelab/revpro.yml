@@ -2,7 +2,7 @@
 :lab_name: pep-labs
 :repo_path: "/workspace/revpro-cli/pep-labs"
 :previous_lab: 
-:current_lab: 
+:current_lab: Library
 :origin_remote: https://github.com/jojo1234526/pep-labs
 :repo_clone_folder: "/workspace/revpro-cli/pep-labs"
 :github_username: jojo1234526
@@ -40,12 +40,12 @@
     :git_user_name: jojo1234526
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 0
+  :count_labs_passed: 1
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 13
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 13
   Start:
     :Week: 1
     :Order: 1
@@ -816,21 +816,21 @@
     :Order: 9
     :Type: project
     :count_tests: 13
-    :count_tests_passed: 0
+    :count_tests_passed: 13
     :tests:
-      getAllAuthorsDAOTest: 0
-      insertAuthorCheckWithGetAllTest: 0
-      getAllAuthorsServiceTest: 0
-      addAuthorTest: 0
-      getAllBooksTest: 0
-      getBookByIsbnTest: 0
-      insertBookCheckWithGetAllTest: 0
-      insertBookCheckWithGetByIdTest: 0
-      getBooksWithBookCountOverZeroTest: 0
-      getAllBooksTest1: 0
-      addBookVerifyNotNullOnSuccessfulAddTest: 0
-      addBookVerifyNullOnUnsuccessfulAdd: 0
-      getAllAvailableBooksTest: 0
+      getAllAuthorsDAOTest: 1
+      insertAuthorCheckWithGetAllTest: 1
+      getAllAuthorsServiceTest: 1
+      addAuthorTest: 1
+      getAllBooksTest: 1
+      getBookByIsbnTest: 1
+      insertBookCheckWithGetAllTest: 1
+      insertBookCheckWithGetByIdTest: 1
+      getBooksWithBookCountOverZeroTest: 1
+      getAllBooksTest1: 1
+      addBookVerifyNotNullOnSuccessfulAddTest: 1
+      addBookVerifyNullOnUnsuccessfulAdd: 1
+      getAllAvailableBooksTest: 1
   AdvancedBooleans:
     :Week: 7
     :Order: 1
