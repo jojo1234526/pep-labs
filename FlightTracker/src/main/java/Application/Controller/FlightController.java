@@ -78,7 +78,7 @@ public class FlightController {
      */
     private void postFlightHandler(Context ctx) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
-        Flight flight = mapper.readValue(ctx.body(), Flight.class);
+        Flight flight = mapper.readValue(ctx.body(), Flight.class); //this class is hidden from the students (us) and is located in the target. We just make a reference to the Flight class. Why?  
         Flight addedFlight = flightService.addFlight(flight);
         if(addedFlight==null){
             ctx.status(400);
