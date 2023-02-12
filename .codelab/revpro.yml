@@ -40,12 +40,12 @@
     :git_user_name: jojo1234526
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 0
+  :count_labs_passed: 1
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 2
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 2
   Start:
     :Week: 1
     :Order: 1
@@ -775,10 +775,10 @@
     :Order: 5
     :Type: challenge
     :count_tests: 2
-    :count_tests_passed: 0
+    :count_tests_passed: 2
     :tests:
-      pyramidTest1: 0
-      pyramidTest2: 0
+      pyramidTest1: 1
+      pyramidTest2: 1
       problemTest: 1
       initializationError: 0
   ContainsDuplicates:
