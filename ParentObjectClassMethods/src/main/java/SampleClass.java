@@ -54,11 +54,18 @@
 public class SampleClass {
     public int a;
     public boolean b;
-
-    //    implement a custom .equals(SampleClass other){} method here.
-
-
-    //    implement a custom .toString(){} method here.
-
+    public boolean equals(SampleClass other) {
+        if (this == other) return true;
+        if (other == null || getClass() != other.getClass()) return false;
+        SampleClass that = (SampleClass) other;
+        return a == that.a &&
+                b == that.b;
+    }
     
+    public String toString() {
+        return "SampleClass{" +
+                "a=" + a +
+                ", b=" + b +
+                '}';
+    }
 }
