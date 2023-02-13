@@ -2,7 +2,7 @@
 :lab_name: pep-labs
 :repo_path: "/workspace/revpro-cli/pep-labs"
 :previous_lab: 
-:current_lab: 
+:current_lab: StringIsPalindrome
 :origin_remote: https://github.com/jojo1234526/pep-labs
 :repo_clone_folder: "/workspace/revpro-cli/pep-labs"
 :github_username: jojo1234526
@@ -1052,6 +1052,9 @@
       palindromeTest1: 0
       palindromeTest2: 0
       palindromeTest3: 0
+      fibTest1: 0
+      fibTest2: 0
+      fibTest3: 0
   SubArray:
     :Week: 10
     :Order: 2
