@@ -17,6 +17,10 @@
  */
 public class Shiba extends Dog{
 
+    public String sound(){ 
+        return "Barkkk";
+    }
+
 //    override sound() here
 
 }
